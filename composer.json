@@ -1,0 +1,52 @@
+{
+    "name": "rocketphp/tweetnest",
+    "description": "Search JSON tweet files by text and location - Elasticsearch.",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Eric Mugerwa",
+            "email":  "eric@rocketphp.io",
+            "homepage":  "http://www.rocketphp.io",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "rocketphp",
+        "elasticsearch",
+        "json",
+        "twitter",
+        "tweets"
+    ],
+    "homepage": "https://github.com/rocketphp/tweetnest",
+    "autoload": {
+        "psr-4": {
+            "RocketPHP\\TweetNest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RocketPHPTest\\TweetNest\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "elasticsearch/elasticsearch": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    }
+}

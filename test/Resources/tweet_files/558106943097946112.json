@@ -1,0 +1,329 @@
+{
+    "created_at": "Thu Jan 22 03:40:39 +0000 2015",
+    "id": 558106943097946100,
+    "id_str": "558106943097946112",
+    "text": "RT @CarterEstWinery: Window washers at a children's hospital.  This is just awesome. #extramile http://t.co/X7PjdnMiVq",
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 2896549437,
+        "id_str": "2896549437",
+        "name": "Jackie ",
+        "screen_name": "hercule63",
+        "location": "Montérégie,Q.C.",
+        "url": null,
+        "description": "Adore la vie.Aime l'humour,musique,moto,les gens intelligents.!,animaux,actualités.",
+        "protected": false,
+        "verified": false,
+        "followers_count": 141,
+        "friends_count": 279,
+        "listed_count": 0,
+        "favourites_count": 2535,
+        "statuses_count": 1611,
+        "created_at": "Fri Nov 28 23:15:38 +0000 2014",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": "fr",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "3B94D9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+        "default_profile": false,
+        "default_profile_image": true,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Fri Jan 02 02:57:14 +0000 2015",
+        "id": 550848262517702660,
+        "id_str": "550848262517702656",
+        "text": "Window washers at a children's hospital.  This is just awesome. #extramile http://t.co/X7PjdnMiVq",
+        "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2499930355,
+            "id_str": "2499930355",
+            "name": "Wine lover",
+            "screen_name": "CarterEstWinery",
+            "location": "",
+            "url": null,
+            "description": "Wine Enthusiast, From Vine to Glass.",
+            "protected": false,
+            "verified": false,
+            "followers_count": 3909,
+            "friends_count": 4002,
+            "listed_count": 57,
+            "favourites_count": 54,
+            "statuses_count": 126,
+            "created_at": "Fri May 16 21:19:57 +0000 2014",
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/541347747224252416/YJnbgzbz.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/541347747224252416/YJnbgzbz.jpeg",
+            "profile_background_tile": true,
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/467418653328039936/ALZyOClz_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/467418653328039936/ALZyOClz_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2499930355/1400276545",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 82,
+        "favorite_count": 91,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "extramile",
+                    "indices": [
+                        64,
+                        74
+                    ]
+                }
+            ],
+            "trends": [],
+            "urls": [],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 550848262358302700,
+                    "id_str": "550848262358302720",
+                    "indices": [
+                        75,
+                        97
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                    "url": "http://t.co/X7PjdnMiVq",
+                    "display_url": "pic.twitter.com/X7PjdnMiVq",
+                    "expanded_url": "http://twitter.com/CarterEstWinery/status/550848262517702656/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 340,
+                            "h": 511,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 681,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 902,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 550848262358302700,
+                    "id_str": "550848262358302720",
+                    "indices": [
+                        75,
+                        97
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                    "url": "http://t.co/X7PjdnMiVq",
+                    "display_url": "pic.twitter.com/X7PjdnMiVq",
+                    "expanded_url": "http://twitter.com/CarterEstWinery/status/550848262517702656/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 340,
+                            "h": 511,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 681,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 902,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [
+            {
+                "text": "extramile",
+                "indices": [
+                    85,
+                    95
+                ]
+            }
+        ],
+        "trends": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "CarterEstWinery",
+                "name": "Wine lover",
+                "id": 2499930355,
+                "id_str": "2499930355",
+                "indices": [
+                    3,
+                    19
+                ]
+            }
+        ],
+        "symbols": [],
+        "media": [
+            {
+                "id": 550848262358302700,
+                "id_str": "550848262358302720",
+                "indices": [
+                    96,
+                    118
+                ],
+                "media_url": "http://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                "url": "http://t.co/X7PjdnMiVq",
+                "display_url": "pic.twitter.com/X7PjdnMiVq",
+                "expanded_url": "http://twitter.com/CarterEstWinery/status/550848262517702656/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 511,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 681,
+                        "h": 1024,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 902,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 550848262517702660,
+                "source_status_id_str": "550848262517702656"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "id": 550848262358302700,
+                "id_str": "550848262358302720",
+                "indices": [
+                    96,
+                    118
+                ],
+                "media_url": "http://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/B6UBk3sCAAAzuKb.jpg",
+                "url": "http://t.co/X7PjdnMiVq",
+                "display_url": "pic.twitter.com/X7PjdnMiVq",
+                "expanded_url": "http://twitter.com/CarterEstWinery/status/550848262517702656/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 511,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 681,
+                        "h": 1024,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 902,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 550848262517702660,
+                "source_status_id_str": "550848262517702656"
+            }
+        ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1421898039017"
+}

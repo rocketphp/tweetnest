@@ -1,0 +1,18 @@
+language: php 
+
+script:
+    - phpunit
+    - mkdir -p build/logs
+    - phpunit --coverage-clover build/logs/clover.xml
+
+after_script:
+    - php vendor/bin/coveralls -v
+
+before_install:
+    - composer self-update
+
+install:
+    - composer install
+
+php:
+    - 5.5
