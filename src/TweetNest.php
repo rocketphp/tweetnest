@@ -24,9 +24,6 @@ class TweetNest
 implements TweetNestInterface
 {
 
-    const ESINDEX = 'tweetnest_tweets';
-    const ESTYPE = 'tweet';
-
     /** 
      * Files
      * @var obj
@@ -45,6 +42,20 @@ implements TweetNestInterface
      * @var    string
      */
     protected $_eshost;
+
+    /** 
+     * Elasticsearch index
+     * @access protected
+     * @var    string
+     */
+    protected $_esindex;
+
+    /** 
+     * Elasticsearch type
+     * @access protected
+     * @var    string
+     */
+    protected $_estype;
 
     /** 
      * Elasticsearch client
@@ -66,7 +77,11 @@ implements TweetNestInterface
      * @param string $eshost Elasticsearch host
      * @param string $dir    Tweets directory
      */
-    public function __construct($eshost, $dir)
+    public function __construct(
+        $eshost, 
+        $dir, 
+        $esindex = 'tweetnest',
+        $estype = 'tweet')
     {
 
         if(!is_string($eshost) || $eshost === "")
@@ -82,6 +97,8 @@ implements TweetNestInterface
             );
 
         $this->_eshost = $eshost;
+        $this->_esindex = $esindex;
+        $this->_estype = $estype;
 
         $this->_es = new Elasticsearch(
             ['hosts' => [$eshost]]
@@ -109,8 +126,8 @@ implements TweetNestInterface
     public function clear()
     {
         $params = [
-            'index' => self::ESINDEX,
-            'type' => self::ESTYPE,
+            'index' => $this->_esindex,
+            'type' => $this->_estype,
             'body' => [
                 'query' => [
                     'match_all' => []
@@ -162,8 +179,8 @@ implements TweetNestInterface
                             $iterator->getSubPathName(); 
                 $_tweet = file_get_contents($filename); 
                 $tweet = json_decode($_tweet, TRUE);  
-                $params = ['index' => self::ESINDEX,
-                            'type' => self::ESTYPE,
+                $params = ['index' => $this->_esindex,
+                            'type' => $this->_estype,
                             'body' => $tweet];
                 $result = $this->_es->index($params); 
                 $i++;
@@ -181,8 +198,8 @@ implements TweetNestInterface
     public function tweets($limit = 1000)
     { 
         $params = [
-            'index' => self::ESINDEX,
-            'type' => self::ESTYPE,
+            'index' => $this->_esindex,
+            'type' => $this->_estype,
             'size' => $limit,
             'body' => [
                 'query' => [
@@ -201,14 +218,16 @@ implements TweetNestInterface
     /**
      * Search tweets
      *
+     * @todo   Allow searching for empty location
+     * @todo   Search operator for text and location is OR - change to AND
      * @param  array $q     Query fields and values
      * @param  array $limit Limit results
      * @return array
      */
     public function search(array $q, $limit = 1000)
     {  
-        $params = ['index' => self::ESINDEX,
-                    'type' => self::ESTYPE,
+        $params = ['index' => $this->_esindex,
+                    'type' => $this->_estype,
                     'size' => $limit];
 
         $continue = false;
