@@ -207,17 +207,16 @@ implements TweetNestInterface
      */
     public function search(array $q, $limit = 1000)
     {  
-        $text = isset($q['text']) ? $q['text'] : null;
-        $location = isset($q['location']) ? $q['location'] : null;
-
         $params = ['index' => self::ESINDEX,
                     'type' => self::ESTYPE,
                     'size' => $limit];
 
-        if(isset($q['text']))
+        if (isset($q['text']) && $q['text'] !== "") {
             $params['q']['text'] = $q['text'];
-        if(isset($q['location']))
+        }
+        if (isset($q['location']) && $q['location'] !== "") {
             $params['body']['query']['match']['user.location'] = $q['location'];
+        }
 
         $query = $this->_es->search($params);
 
