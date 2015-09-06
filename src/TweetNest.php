@@ -211,12 +211,17 @@ implements TweetNestInterface
                     'type' => self::ESTYPE,
                     'size' => $limit];
 
+        $continue = false;
         if (isset($q['text']) && $q['text'] !== "") {
             $params['q']['text'] = $q['text'];
+            $continue = true;
         }
         if (isset($q['location']) && $q['location'] !== "") {
             $params['body']['query']['match']['user.location'] = $q['location'];
+            $continue = true;
         }
+        if($continue === false)
+            return [];
 
         $query = $this->_es->search($params);
 
